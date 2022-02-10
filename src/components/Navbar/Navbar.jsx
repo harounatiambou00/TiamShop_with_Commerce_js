@@ -23,7 +23,6 @@ const Navbar = () => {
 
   return (
     <AppBar className = {classes.appBar}>
-        {/*<Alert severity='info' onClose={() => {}} classsName = { classes.alert }>This is a success alert — check it out!</Alert>*/}
         <Toolbar className = {classes.toolbar}>
             <div className= {classes.navBrand}>
               <Box component = 'img' src =  {Logo} alt = 'Logo' width={'75px'} />

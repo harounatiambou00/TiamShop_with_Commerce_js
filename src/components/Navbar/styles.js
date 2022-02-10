@@ -2,6 +2,9 @@ import { makeStyles, alpha } from "@material-ui/core";
 import { padding, width } from "@mui/system";
 
 export default makeStyles((theme) => ({
+    appBar : {
+        
+    },
     alert : {
         
     },
