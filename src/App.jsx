@@ -1,14 +1,18 @@
 import React from 'react'
 import { Routes, Link, Route } from 'react-router-dom'
+ 
 
 //Pages importation
 import { About, Cart, Categories, ContactUs, Error, Home, Login, Politicy, Registration } from './pages'
 
+import { Navbar } from './components'
+
 const App = () => {
   return (
-    <>
-      <h1>Header</h1>
-      <Routes>
+    <div>
+      
+      <Navbar />
+      {/*<Routes>
         <Route path='/' element= {<Home />} />
         <Route path='/login' element= {<Login />} />
         <Route path='/registration' element= {<Registration />} />
@@ -17,8 +21,8 @@ const App = () => {
         <Route path='/cart' element= {<Cart />} />
         <Route path='/contactus' element= {<ContactUs />} />
         <Route path='*' element= {<Error />} />
-      </Routes>
-    </>
+      </Routes>*/}
+    </div>
   )
 }
 
