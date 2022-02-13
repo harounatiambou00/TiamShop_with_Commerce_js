@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.f4ffd321.css","mappings":"AAAA,KACI,gBAAkB,CAClB,kBACJ","sources":["App.css"],"sourcesContent":[".App {\r\n    max-width : '100%';\r\n    overflow-y :scroll,\r\n}"],"names":[],"sourceRoot":""}
