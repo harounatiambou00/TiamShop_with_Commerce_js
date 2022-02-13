@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/tiamshop_with_Commerce_js/static/js/main.f9db1614.js",
+    "static/media/Profile-test.jpg": "/tiamshop_with_Commerce_js/static/media/Profile-test.57d72a6f63c6add11f95.jpg",
+    "static/media/TiamTechLogo.png": "/tiamshop_with_Commerce_js/static/media/TiamTechLogo.9d6669f6aa0e3090ebc9.png",
+    "static/media/Logo.png": "/tiamshop_with_Commerce_js/static/media/Logo.2fa9e04e6ce537656fab.png",
+    "index.html": "/tiamshop_with_Commerce_js/index.html",
+    "main.f9db1614.js.map": "/tiamshop_with_Commerce_js/static/js/main.f9db1614.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f9db1614.js"
+  ]
+}
