@@ -13,13 +13,6 @@ export default makeStyles((theme) => ({
         flexDirection : 'row',
         alignItems : 'center'
     },
-    navBrandText : {
-        fontFamily : "'Audiowide', cursive",
-        color : '#D67D3E',
-        [theme.breakpoints.down("sm")]: {
-            display : "none"
-        }
-    },
     navIcons : {
         display : 'flex',
         alignItems : 'center',

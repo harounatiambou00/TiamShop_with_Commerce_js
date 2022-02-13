@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const Rightbar = () => {
+import useStyles from './styles';
+
+const drawerWidth = 240;
+
+const Rightbar = ({setOpen, open }) => {
+  const classes = useStyles({open});
   return (
-    <div>Rightbar</div>
+    <div>
+      hello world
+    </div>
   )
 }
 

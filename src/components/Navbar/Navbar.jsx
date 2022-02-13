@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { AppBar, makeStyles, Toolbar, Typography, InputBase, alpha, Badge, Avatar, Box, IconButton} from '@material-ui/core'
 import { Search, Mail, Cancel } from '@material-ui/icons'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { Dehaze } from '@material-ui/icons';
 
 
 import Logo from '../../assets/images/Logo.png'
@@ -16,13 +17,14 @@ import SearchBarDialog from './MobileDevicesSearchBarDialog/SearchBarDialog' // 
 import Searchbar from './Searchbar/Searchbar' //this one will be displayed on md lg and xl screen 
 
 
-const Navbar = () => {
+
+const Navbar = ({openRightBar, isOpenned}) => {
   const [openSearchBar, setOpenSearchBar] = useState(false) 
   const classes = useStyles({ openSearchBar });
 
 
   return (
-    <AppBar className = {classes.appBar}>
+      <AppBar className = {classes.appBar}>
         <Toolbar className = {classes.toolbar}>
             <div className= {classes.navBrand}>
               <Box component = 'img' src =  {Logo} alt = 'Logo' width={'75px'} />
@@ -53,6 +55,13 @@ const Navbar = () => {
                 color="inherit"
               >
                   <Avatar alt="Sharp" src={testProfile}  className= { classes.navIconsItem} />
+              </IconButton>
+              <IconButton 
+                edge="start"
+                color="inherit"
+                onClick = {() => openRightBar(!isOpenned)}
+              >
+                <Dehaze />
               </IconButton>
             </div>
         </Toolbar>
